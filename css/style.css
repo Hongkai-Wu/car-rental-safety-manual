@@ -139,11 +139,11 @@ body {
 	margin: auto;
 }
 
-img {
+.security {
   float: right;
 }
 
-h1 {
+.about-us-h1 {
 	color: white;
 	font-size: 48px;
 	background-color: #666666;
