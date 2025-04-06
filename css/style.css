@@ -1,0 +1,112 @@
+/* General Layout */
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F2F2F2;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 0;
+    background-color: #003366;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #333;
+    color: white;
+    padding: 2em;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  
+  main {
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .team-section,
+  .about-team .member,
+  .topic-list .topic,
+  .topic-detail {
+    background: white;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .team-section h2,
+  .topic h2,
+  .about-team h2 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .team-section p,
+  .topic p,
+  .about-team p,
+  .topic-detail p,
+  .contact-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  .contact-info a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .team-section,
+    .about-team .member,
+    .topic-list .topic,
+    .topic-detail {
+      flex-direction: column;
+      text-align: center;
+    }
+    img {
+      margin-top: 1em;
+    }
+  }
