@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     background-color: #F2F2F2;
     color: #333;
+    font-size: 16px;
   }
   
   nav ul {
@@ -26,13 +27,15 @@ body {
   }
   
   .hero {
-    background-color: #333;
-    color: white;
-    padding: 2em;
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Roboto Flex', sans-serif;
-  }
+  background-color: #333;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-size: 3rem; /* 约等于 48px */
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+}
+
   
   main {
     padding: 2em;
@@ -56,12 +59,14 @@ body {
   }
   
   .team-section h2,
-  .topic h2,
-  .about-team h2 {
-    font-family: 'Roboto Bold', sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 0.5em;
-  }
+.topic h2,
+.about-team h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
   
   .team-section p,
   .topic p,
