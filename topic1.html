@@ -1,84 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guidelines for Safely Storing Customer Data</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        main {
-            padding: 2rem;
-        }
-        h1 {
-            font-size: 2rem;
-        }
-        h2 {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-        }
-        p, ul {
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guidelines for Safely Storing Customer Data</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-    <h1>Guidelines for Safely Storing Customer Data</h1>
-</header>
-
-<main>
-    <h2>1. Data Encryption</h2>
-    <p>Encryption ensures that sensitive customer data is unreadable without the proper key. Always use strong encryption methods.</p>
+  <!-- Navigation Bar -->
+  <nav>
     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="handbook.html">Handbook</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="Contact Us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Title -->
+  <header>
+    <h1 class="hero">Guidelines for Safely Storing Customer Data</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main class="topic-detail">
+
+    <img src="images/topic1.png" alt="Topic 1 Illustration">
+
+    <section>
+      <h2>1. Data Encryption</h2>
+      <p>Encryption ensures that sensitive customer data is unreadable without the proper key. Always use strong encryption methods.</p>
+      <ul>
         <li>Use AES-256 encryption for stored data.</li>
         <li>Encrypt data in transit with HTTPS.</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h2>2. Access Control</h2>
-    <p>Limit access to customer data only to those who need it for their work.</p>
-    <ul>
+    <section>
+      <h2>2. Access Control</h2>
+      <p>Limit access to customer data only to those who need it for their work.</p>
+      <ul>
         <li>Implement Role-Based Access Control (RBAC).</li>
         <li>Use multi-factor authentication (MFA).</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h2>3. Data Backup</h2>
-    <p>Regularly back up data to avoid loss and ensure data recovery.</p>
-    <ul>
+    <section>
+      <h2>3. Data Backup</h2>
+      <p>Regularly back up data to avoid loss and ensure data recovery.</p>
+      <ul>
         <li>Encrypt backup data.</li>
         <li>Store backups in multiple locations.</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h2>4. Compliance with Regulations</h2>
-    <p>Ensure your data storage methods comply with relevant laws like GDPR, HIPAA, or CCPA.</p>
-    <ul>
+    <section>
+      <h2>4. Compliance with Regulations</h2>
+      <p>Ensure your data storage methods comply with relevant laws like GDPR, HIPAA, or CCPA.</p>
+      <ul>
         <li>Stay updated on privacy laws.</li>
         <li>Ensure third-party vendors also comply with regulations.</li>
-    </ul>
+      </ul>
+    </section>
 
-    <h2>5. Employee Training</h2>
-    <p>Train employees on how to securely handle and protect customer data.</p>
-    <ul>
+    <section>
+      <h2>5. Employee Training</h2>
+      <p>Train employees on how to securely handle and protect customer data.</p>
+      <ul>
         <li>Provide regular security training sessions.</li>
         <li>Establish clear data handling policies.</li>
-    </ul>
-</main>
+      </ul>
+    </section>
+
+  </main>
 
 </body>
 </html>
