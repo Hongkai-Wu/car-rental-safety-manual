@@ -1,128 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="stylesheet.css" rel="stylesheet" type="text/css"> -->
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-	<style>
-        * {
-		box-sizing: border-box;
-		background-color: #F2F2F2;
-		font-family: Verdana;
-		padding: 0px;
-		margin: 0px;
-		margin: auto;
-		}
 
-		.topnav {
-		display: flex;
-		background-color: #003366; 
-		justify-content: center;
-		padding: 10px 0;
-		}
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-		.topnav a {
-		display: block;
-		color: #f2f2f2;
-		padding: 14px 16px;
-		text-decoration: none;
-		background-color: #003366; 
-		}
-
-
-		.topnav a:hover {
-		color: gray;
-		}
-
-		.col {
-		width: 70%;
-		max-width: 1100px;
-		margin: auto;
-		}
-
-		img {
-		float: right;
-		}
-
-		h1 {
-		color: white;
-		font-size: 48px;
-		background-color: #666666;
-		align-content: center;
-		text-align: center;
-		height: 300px;
-		width: 70%; 
-		max-width: 1100px;
-		margin: auto;
-		}
-
-		.title {
-		color: #003366;
-		font-size: 24px;
-		}
-
-		p {
-		font-size: 16px;
-		}
-
-		.more {
-		color: #8B0000;
-		font-size: 14px;
-		text-align: center;
-		list-style: none;
-		}
-
-		.more:hover {
-		color: red;
-		}
-
-    </style>
+   
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<div class="topnav">
-  <a href="index.html">HOME</a>
-  <a href="handbook.html">Handbook</a>
-  <a href="about.html">About Us</a>
-  <a href="Contact Us.html">Contact Us</a>
-</div>
+  
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="handbook.html">Handbook</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
 
-<h1>About Us</h1>
+   
+    <header>
+        <h1 class="hero">About Us</h1>
+    </header>
 
-<br>
-<br>
-<br>
+    <main class="topic-detail">
+        <img src="images/about.png" alt="Team puzzle illustration" style="max-width: 300px; float: right; margin: 1em;" />
 
-<div class="col">
+        <section>
+            <h2>About our team</h2>
+            <p>Our members are Nusrath Bintay Amin, Hongkai Wu, Uzair Niaz and Ai Tanizawa.</p>
+            <ul>
+                <li><strong>Nusrath Bintay Amin</strong> – Oversees risk assessment protocols and ensures compliance.</li>
+                <li><strong>Hongkai Wu</strong> – Specializes in cybersecurity infrastructure and is responsible for maintaining secure network environments.</li>
+                <li><strong>Ai Tanizawa</strong> – Leads incident response and manages training programs to enhance team awareness on security best practices.</li>
+                <li><strong>Uzair Niaz</strong> – Focuses on access control systems and conducts regular audits to identify potential vulnerabilities.</li>
+            </ul>
+        </section>
 
-<img src="images/about.png" alt="About Us" style="max-width: 300px; float: right; margin: 1em;">
-
-
-<h2 class="title">About us</h2>
-
-<br>
-<br>
-
-<p>Our members are Nusrath Bintay Amin, Hongkai Wu, Uzair Niaz and Ai Tanizawa.</p>
-
-<br>
-
-<ul>
-	<li>Nusrath Bintay Amin - Oversees risk assessment protocols and ensures compliance.</li><br>
-	<li>Hongkai Wu - Specializes in cybersecurity infrastructure and is responsible for maintaining secure network environments.</li><br>
-	<li>Ai Tanizawa - Leads incident response and manages training programs to enhance team awareness on security best practices.</li><br>
-	<li>Uzair Niaz - Focuses on access control systems and conducts regular audits to identify potential vulnerabilities.</li>
-</ul>
-
-<br>
-<br>
-
-<a class="more" href="#">READ MORE</a>
-
-
-</div>
+        <p class="more"><a href="#">READ MORE</a></p>
+    </main>
 
 </body>
 </html>
