@@ -66,8 +66,7 @@ body {
   font-size: 1.5rem;
   margin-bottom: 0.5em;
 }
-
-  
+ 
   .team-section p,
   .topic p,
   .about-team p,
@@ -77,11 +76,7 @@ body {
     line-height: 1.5;
   }
   
-  img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 5px;
-  }
+  
   
   .button {
     display: inline-block;
@@ -120,13 +115,21 @@ body {
   width: 100%;
 }
 
+
+
 .topic .text img {
   display: block;
   margin-top: 1em;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-.topic .text img {
-  border: 5px solid red;
-}
+
+
 
